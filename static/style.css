@@ -1,0 +1,113 @@
+/* 5ch風スタイル */
+body {
+    background-color: #f0f0f0;
+    font-family: "MS PGothic", "IPAMonaPGothic", "Mona", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+.header {
+    padding: 10px;
+    text-align: right;
+}
+
+.header a {
+    color: #0000ee;
+    margin-left: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #800000;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 0;
+    border: 1px solid#f0f0f0;
+}
+
+h2 {
+    font-size: 20px;
+    color: #800000;
+    border-bottom: 1px solid#f0f0f0;
+    padding-bottom: 5px;
+}
+
+.thread-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.thread-list li {
+    padding: 5px 0;
+}
+
+.thread-list a {
+    text-decoration: none;
+    color: #0000ee;
+}
+
+.thread-list a:hover {
+    text-decoration: underline;
+    color: #ee0000;
+}
+
+.post {
+    margin-bottom: 15px;
+}
+
+.post .post-header {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 0; /* ユーザー名の下の空白を削除 */
+}
+
+.post .post-header .name {
+    font-weight: bold;
+    color: #008000; /* 名前の色を緑に */
+}
+
+.post .post-body p {
+    margin: 0; /* デフォルトのマージンを削除 */
+    white-space: pre-wrap; /* 改行を維持 */
+}
+
+.post .post-body .quote {
+    color: #008000; /* 引用(>)を緑色に */
+}
+
+form {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e0e0e0;
+}
